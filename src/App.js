@@ -7,6 +7,7 @@ import Tmdb from './Tmdb';
 import MovieRow from './components/MovieRow';
 import FeaturedMovie from './components/FeaturedMovie';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 export default () => {
 
@@ -46,10 +47,10 @@ export default () => {
 
   return (
     <div className="page">
+      
+      <Header isBlack={blackHeader} />
 
-    <Header isBlack={blackHeader} />
-
-    {featuredData && <FeaturedMovie movie={featuredData} />}
+      {featuredData && <FeaturedMovie movie={featuredData} />}
       
       <section className="lists">
         {
@@ -58,6 +59,9 @@ export default () => {
           ))
         }
       </section>
+
+      <Footer />
+
     </div>
   );
 }
