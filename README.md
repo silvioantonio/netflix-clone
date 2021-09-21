@@ -1,6 +1,6 @@
 ## Project Overview
-![Mobile view](https://github.com/silvioantonio/netflix-clone/tree/[branch]/img/img3.png?raw=true)
+![Mobile view](https://github.com/silvioantonio/netflix-clone/tree/master/img/img3.png?raw=true)
 <hr>
-<img height="360em" src="./img/img1.png"/>
+![Home view](https://github.com/silvioantonio/netflix-clone/tree/master/img/img1.png?raw=true)
 <hr>
-<img height="360em" src="./img/img2.png"/>
+![List view](https://github.com/silvioantonio/netflix-clone/tree/master/img/img2.png?raw=true)
