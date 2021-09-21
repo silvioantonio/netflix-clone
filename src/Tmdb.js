@@ -1,7 +1,9 @@
 /* eslint-disable import/no-anonymous-default-export */
-const API_KEY = '1e199411182ffaea924f9fa20e0533c5';
-const API_BASE = 'https://api.themoviedb.org/3';
-const API_NETWORK_OPTION = 'language=pt-BR';
+import data from './secrets.json';
+
+const API_KEY = data.API_KEY;
+const API_BASE = data.API_BASE;
+const API_NETWORK_OPTION = data.API_NETWORK_OPTION;
 
 const basicFetch = async (endpoint) => {
     const request = await fetch(`${API_BASE}${endpoint}`);
